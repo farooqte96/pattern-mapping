@@ -1,8 +1,7 @@
 """
 This script applies the required formating rules on given string
 """
-#from .modify_string import modify_string
-import modify_string
+from . import modify_string
 
 def apply_format(string, integers):
     """This function is used to apply formating rules."""
