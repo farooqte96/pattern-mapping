@@ -1,0 +1,32 @@
+Microsoft Windows [Version 10.0.17763.557]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>d:
+
+D:\>cd bootcamp
+
+D:\bootcamp>cd pattern-mapping
+
+D:\bootcamp\pattern-mapping>python test_format.py
+test_return_false_for_big_numbers (__main__.TestIntegers) ... ok
+test_return_false_if_negative_integers (__main__.TestIntegers) ... ok
+test_return_false_if_zero_in_integers (__main__.TestIntegers) ... ok
+test_return_true_if_all_integers_positive (__main__.TestIntegers) ... ok
+test_check_apply_format (__main__.TestStringPatterns) ... ok
+test_huge_pattern_should_return_empty_string (__main__.TestStringPatterns) ... ok
+test_pattern_SSTTTS_with_20_should_give_SSTTTSSSSSSSSSSSSSSS (__main__.TestStringPatterns) ... ok
+test_pattern_SSTTTS_with_9_should_give_SSTTTSSSS (__main__.TestStringPatterns) ... ok
+test_pattern_SST_with_2_should_give_SS (__main__.TestStringPatterns) ... ok
+test_pattern_SST_with_5_should_give_SSTSS (__main__.TestStringPatterns) ... ok
+test_pattern_S_with_2_should_give_SS (__main__.TestStringPatterns) ... ok
+test_retrieve_message_all_strings (__main__.TestStringPatterns) ... ok
+test_retrive_message_single_string (__main__.TestStringPatterns) ... ok
+test_string_beyond_20_characters_should_return_empty_string (__main__.TestStringPatterns) ... ok
+test_string_less_than_one_characters_should_return_empty_string (__main__.TestStringPatterns) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.008s
+
+OK
+
+D:\bootcamp\pattern-mapping>
